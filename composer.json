@@ -1,5 +1,9 @@
 {
     "name": "mehrab/eloquestic",
+    "description": "the odm for elastic search. the functionality of this is like eloquent package",
+    "homepage": "https://github.com/mehrab-karimpour/eloquestic",
+    "license": "MIT",
+    "type": "library",
     "version": "1.0.0",
     "autoload": {
         "psr-4": {
@@ -13,6 +17,8 @@
         }
     ],
     "require": {
+        "php": "^8.0",
+        "laravel/framework": "^10.10",
         "elasticsearch/elasticsearch": "^8.11"
     },
     "extra": {
